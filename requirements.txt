@@ -4,4 +4,5 @@ whitenoise
 psycopg2-binary
 dotenv
 djangorestframework
+django-cors-headers
 
