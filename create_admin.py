@@ -1,8 +1,7 @@
 import os
 import django
 
-# Setup Django
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "wzrdbackend.settings")  # change to your settings path
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'wzrdbackend.settings')
 django.setup()
 
 from django.contrib.auth import get_user_model
