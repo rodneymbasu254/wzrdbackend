@@ -56,6 +56,7 @@ INSTALLED_APPS = [
 INSTALLED_APPS += ['corsheaders']
 #MIDDLEWARE = ['corsheaders.middleware.CorsMiddleware'] + MIDDLEWARE
 CORS_ALLOWED_ORIGINS = [
+    "https://wizrdgroupholdings.vercel.app",
     "http://localhost:5173",  # React dev
 ]
 
@@ -149,6 +150,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 
 
