@@ -52,8 +52,7 @@ INSTALLED_APPS = [
     'projects',
     'blog',
     'inquiries',
-    'cloudinary',
-    'cloudinary_storage',
+    'storages',
 ]
 
 INSTALLED_APPS += ['corsheaders']
@@ -97,10 +96,6 @@ WSGI_APPLICATION = 'wzrdbackend.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-
-CLOUDINARY_URL = os.getenv("CLOUDINARY_URL")
-
-DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # ---------------------------------------------------------------------
@@ -154,6 +149,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
+
 
 
 
