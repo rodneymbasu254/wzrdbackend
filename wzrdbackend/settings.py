@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'projects',
     'blog',
     'inquiries',
-    'imagekit',
     'corsheaders',
 ]
 
@@ -102,11 +101,6 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # ---------------------------------------------------------------------
-# IMAGEKIT CONFIGURATION
-# ---------------------------------------------------------------------
-IMAGEKIT_DEFAULT_CACHEFILE_STRATEGY = 'imagekit.cachefiles.strategies.Optimistic'
-
-# ---------------------------------------------------------------------
 # PASSWORDS & TIMEZONE
 # ---------------------------------------------------------------------
 AUTH_PASSWORD_VALIDATORS = [
@@ -122,3 +116,4 @@ USE_I18N = True
 USE_TZ = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
