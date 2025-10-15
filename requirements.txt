@@ -9,6 +9,9 @@ Pillow
 dj-database-url
 django-imagekit
 imagekitio
+django-storages 
+boto3
+
 
 
 
