@@ -8,6 +8,8 @@ django-cors-headers
 Pillow
 dj-database-url
 django-imagekit
+imagekitio
+
 
 
 
