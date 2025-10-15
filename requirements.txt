@@ -7,8 +7,8 @@ djangorestframework
 django-cors-headers
 Pillow
 dj-database-url
-boto3 
-django-storages
+django-imagekit
+
 
 
 
